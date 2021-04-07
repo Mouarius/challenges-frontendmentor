@@ -1,0 +1,241 @@
+header[data-v-6a8beb] {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+header .page-views[data-v-6a8beb] {
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
+header .pricing[data-v-6a8beb] {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+header .pricing strong[data-v-6a8beb] {
+  font-size: 2.1rem;
+  font-weight: 800;
+  color: #293356;
+  margin-right: 0.2em;
+}
+
+/*# sourceMappingURL=PricingCardHeader.vue.map */
+.test[data-v-20e144] {
+  height: 40px;
+  width: 40px;
+}
+.bar-container[data-v-20e144] {
+  position: relative;
+  height: 1.9em;
+}
+.bar[data-v-20e144] {
+  height: 0.4em;
+  background: #a5f3eb;
+  border-radius: 0.2em;
+  background-color: #eaeefb;
+  position: absolute;
+  top: 5px;
+}
+.bar-empty[data-v-20e144] {
+  width: 100%;
+}
+.bar-full[data-v-20e144] {
+  background-color: #a5f3eb;
+}
+[type=range][data-v-20e144] {
+  --range: calc(var(--max) - var(--min));
+  --ratio: calc((var(--val) - var(--min)) / var(--range));
+  --sx: calc(0.5 *1.9em + var(--ratio) * (100% - 1.9em));
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  width: 100%;
+  height: 1.9em;
+  background: transparent;
+}
+[type=range][data-v-20e144], [type=range][data-v-20e144]::-webkit-slider-thumb {
+  -webkit-appearance: none;
+}
+[type=range][data-v-20e144]:focus {
+  outline: none;
+}
+[type=range][data-v-20e144]::-webkit-slider-runnable-track {
+  box-sizing: border-box;
+}
+[type=range][data-v-20e144]::-moz-range-track {
+  box-sizing: border-box;
+}
+[type=range][data-v-20e144]::-ms-track {
+  box-sizing: border-box;
+}
+[type=range][data-v-20e144]::-moz-range-progress {
+  height: 0.4em;
+  background: #a5f3eb;
+  border-radius: 0.2em;
+}
+[type=range][data-v-20e144]::-ms-fill-lower {
+  height: 0.4em;
+  background: #a5f3eb;
+  border-radius: 0.2em;
+}
+[type=range][data-v-20e144]::-webkit-slider-thumb {
+  margin-top: -0.75em;
+  box-sizing: border-box;
+  cursor: pointer;
+  width: 1.9em;
+  height: 1.9em;
+  border-radius: 50%;
+  background: #10d5c2 url("icon-slider.121d6c17.svg") no-repeat center/60%;
+  transition: all 0.2s;
+  box-shadow: 0 8px 15px 0px rgba(165, 243, 235, 0.8);
+}
+[type=range][data-v-20e144]::-webkit-slider-thumb:hover {
+  box-shadow: 0 9px 15px 3px rgba(165, 243, 235, 0.8);
+  transform: scale(1.1);
+}
+[type=range][data-v-20e144]::-moz-range-thumb {
+  box-sizing: border-box;
+  cursor: pointer;
+  width: 1.9em;
+  height: 1.9em;
+  border-radius: 50%;
+  background: #10d5c2 url("icon-slider.121d6c17.svg") no-repeat center/60%;
+  transition: all 0.2s;
+  box-shadow: 0 8px 15px 0px rgba(165, 243, 235, 0.8);
+}
+[type=range][data-v-20e144]::-moz-range-thumb:hover {
+  box-shadow: 0 9px 15px 3px rgba(165, 243, 235, 0.8);
+  transform: scale(1.1);
+}
+[type=range][data-v-20e144]::-ms-thumb {
+  margin-top: 0;
+  box-sizing: border-box;
+  cursor: pointer;
+  width: 1.9em;
+  height: 1.9em;
+  border-radius: 50%;
+  background: #10d5c2 url("icon-slider.121d6c17.svg") no-repeat center/60%;
+  transition: all 0.2s;
+  box-shadow: 0 8px 15px 0px rgba(165, 243, 235, 0.8);
+}
+[type=range][data-v-20e144]::-ms-thumb:hover {
+  box-shadow: 0 9px 15px 3px rgba(165, 243, 235, 0.8);
+  transform: scale(1.1);
+}
+[type=range][data-v-20e144]::-ms-tooltip {
+  display: none;
+}
+/*# sourceMappingURL=BaseSlider.vue.map */
+input[data-v-23614c] {
+  display: none;
+}
+.container[data-v-23614c] {
+  display: block;
+  cursor: pointer;
+  box-sizing: content-box;
+  width: 27.6px;
+  height: 12px;
+  border-radius: 12px;
+  padding: 3px;
+  background: #cdd7ee;
+  transition: all 0.2s ease-in-out;
+}
+.container[data-v-23614c]:hover {
+  background: #b3c1e6;
+}
+.left[data-v-23614c] {
+  transform: translateX(0);
+}
+.right[data-v-23614c] {
+  transform: translateX(120%);
+}
+.ball[data-v-23614c] {
+  width: 12px;
+  height: 12px;
+  border-radius: 100%;
+  background: white;
+  position: relative;
+  transition: all 0.2s ease-in-out;
+}
+
+/*# sourceMappingURL=BaseSwitchButton.vue.map */
+button[data-v-452217] {
+  border: none;
+  background: #293356;
+  color: #bdccff;
+  font-size: 12px;
+  width: 170px;
+  height: 40px;
+  border-radius: 20px;
+  transition: all 0.2s;
+  cursor: pointer;
+}
+button[data-v-452217]:hover {
+  transform: scale(1.02);
+  box-shadow: -3px 3px 5px rgba(41, 51, 86, 0.1);
+}
+
+/*# sourceMappingURL=BaseButton.vue.map */
+footer.controls[data-v-7a88b9] {
+  font-size: 12px;
+  display: grid;
+  justify-content: center;
+  align-content: center;
+  grid-template-columns: 1fr 50px 1fr;
+  column-gap: 10px;
+  margin: 30px 0;
+}
+footer.controls .switch[data-v-7a88b9] {
+  margin: 0 0.8em;
+}
+.option-right[data-v-7a88b9] {
+  place-self: left;
+  justify-self: stretch;
+}
+.option-left[data-v-7a88b9] {
+  text-align: right;
+}
+.tag[data-v-7a88b9] {
+  font-size: 10px;
+  line-height: 10px;
+  padding: 0 4px;
+  border-radius: 5px;
+  align-items: center;
+  text-align: center;
+  background: #feece7;
+  color: #ff8c66;
+  margin-left: 0.5em;
+}
+.card[data-v-7a88b9] {
+  color: #858fad;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 540px;
+  border-radius: 10px;
+  font-size: 0.95em;
+  box-shadow: 0 10px 50px -18px rgba(0, 0, 0, 0.3);
+}
+.card .card-body[data-v-7a88b9] {
+  border-bottom: solid 1px rgba(0, 0, 0, 0.1);
+  padding-top: 3em;
+}
+.card-content[data-v-7a88b9] {
+  padding: 0 3em;
+}
+.card > footer[data-v-7a88b9] {
+  padding-top: 2em;
+  padding-bottom: 2em;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+ul[data-v-7a88b9] {
+  padding-left: 1em;
+}
+li[data-v-7a88b9] {
+  list-style: url("icon-check.226f147c.svg");
+}
+/*# sourceMappingURL=PricingCard.vue.map */
+/*# sourceMappingURL=index.aa203569.css.map */

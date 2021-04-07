@@ -1,0 +1,47 @@
+body {
+  font-family: Manrope, sans-serif;
+}
+
+header[data-v-6a8beb] {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+header .page-views[data-v-6a8beb] {
+  text-transform: uppercase;
+  font-size: 0.8rem;
+}
+header .pricing[data-v-6a8beb] {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+header .pricing strong[data-v-6a8beb] {
+  font-size: 2.1rem;
+  font-weight: 800;
+  color: blue;
+  margin-right: 0.2em;
+}
+
+/*# sourceMappingURL=PricingCardHeader.vue.map */
+.card[data-v-7a88b9] {
+  color: #858fad;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  width: 540px;
+  border-radius: 10px;
+  font-size: 0.95em;
+  box-shadow: 0 10px 50px -18px rgba(0, 0, 0, 0.3);
+}
+.card .card-body[data-v-7a88b9] {
+  border-bottom: solid 1px rgba(0, 0, 0, 0.1);
+  padding-top: 3em;
+}
+.card-content[data-v-7a88b9] {
+  padding: 0 3em;
+}
+
+/*# sourceMappingURL=PricingCard.vue.map */
+/*# sourceMappingURL=index.6d9f2ba9.css.map */

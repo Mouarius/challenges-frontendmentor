@@ -1,0 +1,26 @@
+{
+  "name": "interactive-pricing-component-main",
+  "version": "1.0.0",
+  "description": "![Design preview for the Interactive pricing component coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel serve ./src/index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.0.0-beta.2",
+    "@parcel/transformer-vue": "^2.0.0-beta.2",
+    "eslint": "^7.23.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-config-prettier": "^8.1.0",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-prettier": "^3.3.1",
+    "eslint-plugin-vue": "^7.8.0",
+    "prettier": "^2.2.1"
+  },
+  "dependencies": {
+    "vue": "^3.0.10"
+  }
+}
